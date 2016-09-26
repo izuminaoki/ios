@@ -12,6 +12,8 @@
 		041C22B31D98FBD3005E2722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C22B11D98FBD3005E2722 /* Main.storyboard */; };
 		041C22B51D98FBD3005E2722 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041C22B41D98FBD3005E2722 /* Assets.xcassets */; };
 		041C22B81D98FBD3005E2722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C22B61D98FBD3005E2722 /* LaunchScreen.storyboard */; };
+		041C22C11D98FC42005E2722 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C22BF1D98FC42005E2722 /* SecondStoryboard.storyboard */; };
+		04619AF91D99039400399CC9 /* ThirdStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04619AF81D99039400399CC9 /* ThirdStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		041C22B41D98FBD3005E2722 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		041C22B71D98FBD3005E2722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		041C22B91D98FBD3005E2722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041C22C01D98FC42005E2722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SecondStoryboard.storyboard; sourceTree = "<group>"; };
+		04619AF81D99039400399CC9 /* ThirdStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdStoryboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,8 @@
 				041C22AD1D98FBD2005E2722 /* AppDelegate.swift */,
 				041C22AF1D98FBD2005E2722 /* ViewController.swift */,
 				041C22B11D98FBD3005E2722 /* Main.storyboard */,
+				041C22BF1D98FC42005E2722 /* SecondStoryboard.storyboard */,
+				04619AF81D99039400399CC9 /* ThirdStoryboard.storyboard */,
 				041C22B41D98FBD3005E2722 /* Assets.xcassets */,
 				041C22B61D98FBD3005E2722 /* LaunchScreen.storyboard */,
 				041C22B91D98FBD3005E2722 /* Info.plist */,
@@ -124,7 +130,9 @@
 			files = (
 				041C22B81D98FBD3005E2722 /* LaunchScreen.storyboard in Resources */,
 				041C22B51D98FBD3005E2722 /* Assets.xcassets in Resources */,
+				04619AF91D99039400399CC9 /* ThirdStoryboard.storyboard in Resources */,
 				041C22B31D98FBD3005E2722 /* Main.storyboard in Resources */,
+				041C22C11D98FC42005E2722 /* SecondStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +165,14 @@
 				041C22B71D98FBD3005E2722 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		041C22BF1D98FC42005E2722 /* SecondStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				041C22C01D98FC42005E2722 /* Base */,
+			);
+			name = SecondStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -286,6 +302,7 @@
 				041C22BE1D98FBD3005E2722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
