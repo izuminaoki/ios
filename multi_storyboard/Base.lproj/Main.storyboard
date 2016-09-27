@@ -16,7 +16,7 @@
         <!--View Controller-->
         <scene sceneID="MsI-nc-wq5">
             <objects>
-                <viewController id="I69-Fv-bqP" sceneMemberID="viewController">
+                <viewController id="I69-Fv-bqP" customClass="ViewController" customModule="multi_storyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fEb-Xq-Hw9"/>
                         <viewControllerLayoutGuide type="bottom" id="6U1-Pn-Mis"/>
@@ -29,6 +29,7 @@
                                 <rect key="frame" x="172" y="203" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="tuiButton:" destination="I69-Fv-bqP" eventType="touchUpInside" id="dr0-VK-SVh"/>
                                     <segue destination="QNa-rI-hGd" kind="show" id="J0m-Xx-gun"/>
                                 </connections>
                             </button>
@@ -41,10 +42,10 @@
             </objects>
             <point key="canvasLocation" x="-281" y="191"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Base Navigation Controller-->
         <scene sceneID="u5l-iK-uPN">
             <objects>
-                <navigationController id="eIL-2Z-VpW" sceneMemberID="viewController">
+                <navigationController id="eIL-2Z-VpW" customClass="BaseNavigationController" customModule="multi_storyboard" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qj4-gD-BMK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

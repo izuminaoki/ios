@@ -14,6 +14,11 @@
 		041C22B81D98FBD3005E2722 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C22B61D98FBD3005E2722 /* LaunchScreen.storyboard */; };
 		041C22C11D98FC42005E2722 /* SecondStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041C22BF1D98FC42005E2722 /* SecondStoryboard.storyboard */; };
 		04619AF91D99039400399CC9 /* ThirdStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04619AF81D99039400399CC9 /* ThirdStoryboard.storyboard */; };
+		0494909C1D9A66F200558936 /* BaseViewControllerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494909B1D9A66F200558936 /* BaseViewControllerProtocol.swift */; };
+		0494909E1D9A6C3900558936 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494909D1D9A6C3900558936 /* SecondViewController.swift */; };
+		049490A11D9A70B500558936 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0494909F1D9A70B500558936 /* ThirdViewController.swift */; };
+		04C835CB1D9A5718007974CC /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C835CA1D9A5718007974CC /* BaseNavigationController.swift */; };
+		04C957101D9A41E200D7E911 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C9570F1D9A41E200D7E911 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		041C22B91D98FBD3005E2722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		041C22C01D98FC42005E2722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/SecondStoryboard.storyboard; sourceTree = "<group>"; };
 		04619AF81D99039400399CC9 /* ThirdStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ThirdStoryboard.storyboard; sourceTree = "<group>"; };
+		0494909B1D9A66F200558936 /* BaseViewControllerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewControllerProtocol.swift; sourceTree = "<group>"; };
+		0494909D1D9A6C3900558936 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		0494909F1D9A70B500558936 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		04C835CA1D9A5718007974CC /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		04C9570F1D9A41E200D7E911 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,8 +71,13 @@
 				041C22AD1D98FBD2005E2722 /* AppDelegate.swift */,
 				041C22AF1D98FBD2005E2722 /* ViewController.swift */,
 				041C22B11D98FBD3005E2722 /* Main.storyboard */,
+				04C9570F1D9A41E200D7E911 /* BaseViewController.swift */,
+				0494909B1D9A66F200558936 /* BaseViewControllerProtocol.swift */,
+				04C835CA1D9A5718007974CC /* BaseNavigationController.swift */,
 				041C22BF1D98FC42005E2722 /* SecondStoryboard.storyboard */,
+				0494909D1D9A6C3900558936 /* SecondViewController.swift */,
 				04619AF81D99039400399CC9 /* ThirdStoryboard.storyboard */,
+				0494909F1D9A70B500558936 /* ThirdViewController.swift */,
 				041C22B41D98FBD3005E2722 /* Assets.xcassets */,
 				041C22B61D98FBD3005E2722 /* LaunchScreen.storyboard */,
 				041C22B91D98FBD3005E2722 /* Info.plist */,
@@ -143,8 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494909E1D9A6C3900558936 /* SecondViewController.swift in Sources */,
+				04C835CB1D9A5718007974CC /* BaseNavigationController.swift in Sources */,
+				0494909C1D9A66F200558936 /* BaseViewControllerProtocol.swift in Sources */,
+				049490A11D9A70B500558936 /* ThirdViewController.swift in Sources */,
 				041C22B01D98FBD2005E2722 /* ViewController.swift in Sources */,
 				041C22AE1D98FBD2005E2722 /* AppDelegate.swift in Sources */,
+				04C957101D9A41E200D7E911 /* BaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
